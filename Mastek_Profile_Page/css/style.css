@@ -1,0 +1,144 @@
+
+.masteklogo{
+    
+     margin-top: 12px;
+  /*  margin-left: 14px;
+    margin-right: 14px;     */
+    width: 100px;
+    height: 43px;
+    display: block;
+    
+
+}
+#myProfile{
+    padding-left:126px;
+    font-size: 22px;
+    padding-top:10px
+}
+.searchbx{
+    padding-left: 0px;
+}
+
+.col{
+    width: 13% !important;
+    float: left;
+}
+#searchBox{
+    width:486px;
+    height: 36px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border:solid 1px #aaa !important;
+    margin-top:15px;
+}
+
+.myProfileHeading{
+    color:white;
+    background-color: navy;
+    height:46px;
+}
+.chck_box{
+    margin-top:47px;
+    font-size: 14px;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+#mySkill{
+    background-color: rgba(97, 97, 245, 0.849);
+    float:right;
+    height: 32px;
+    margin-top: 49px;
+    width: 77px;
+    padding-left: 3px;
+}
+
+.input_edit{
+    border: none;
+    float: left;
+    width:200px;
+    border-bottom: black 1px solid;
+    margin-left:10px;    
+    height: 20px;
+}
+.myprofile_details{
+    height:50px;
+}
+.email_Id{
+    width:272px;
+
+}
+.certification_list{
+    margin:0px ;
+    width:187px;
+}
+.certification_list li{
+    list-style-type: square;
+    
+}
+/* #searchBtnImg{
+    float:right;
+    height: 28px;
+    width: 31px;
+} */
+.card-columns{
+
+    margin-top: 114px;
+;
+        }
+    .card-body{
+     height:527px !important;
+    }
+    .menu{
+        height: 33px;
+        width:800px;
+        padding-left:0px;
+        padding-top:18px;
+    }
+    .menu li{
+        display: inline;
+        /* width: 30px; */
+    }
+
+    
+    .org_Details{
+        float: left;
+        padding-left:10px
+    }
+    dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #7e7e80;}
+.dropbtn {
+    background-color: #c2c1ca;
+    color: black;
+    padding: 5px;
+    font-size: 12px;
+    border: none;
+  }
+  
+  .dropdown {    
+    display: inline-block;    
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(182, 188, 218, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .drpdownmenu{
+      width:1046px;
+  }
