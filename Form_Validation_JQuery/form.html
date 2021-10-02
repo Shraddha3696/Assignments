@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form  class="info_form" name="myform" action="welcome.html" onsubmit="return validateForm()" >
+        <div>
+            <h1>Details</h1>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <label for="firstname">First Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="firstName" name="firstName" minlength="2" >
+                </td>
+            </tr>
+            <tr >
+                <td><label for="lastName">Last Name:</label></td>
+                <td><input type="text" id="lastName" name="lastName" minlength="2" ></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td><input type="radio" id="gender_male" value="male" name="gender" checked>
+                    <label for="gender_male">Male</label>
+
+                    <input type="radio" id="gender_female" value="female" name="gender">
+                    <label for="gender_female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="city">Choose a city:</label></td>
+                <td><select id="city" name="city">
+                        <option value="mumbai" selected>Mumbai</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="chennai">Chennai</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td><input type="checkbox" id="hobby1" name="hobby1" value="reading">
+                    <label for="hobby1"> Reading</label>
+
+                    <input type="checkbox" id="hobby2" name="hobby2" value="dancing">
+                    <label for="hobby2"> Dancing</label>
+
+                    <input type="checkbox" id="hobby3" name="hobby3" value="singing">
+                    <label for="hobby3"> Singing</label>
+
+                    <input type="checkbox" id="hobby4" name="hobby4" value="sports">
+                    <label for="hobby3"> Sports</label>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="email"> Email: </label></td>
+                <td><input type="text" id="email" name="email"  ></td>
+                
+            </tr>
+            <tr>
+                <td><label for="phnno"> Phone Number: </label></td>
+                <td><input type="number" id="phnno" name="phnno"  ></td>
+                
+            </tr>
+                <tr></tr>
+            <tr>
+
+                <td><input type="submit" class="sbmtbtn" value="submit"></td>
+            </tr>
+        </table>
+
+    </form>
+
+<script src="js/main2.js"></script>
+</body>
+
+</html>
