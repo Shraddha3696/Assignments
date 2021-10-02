@@ -1,0 +1,24 @@
+.info_form{
+    
+    background-color: rgb(80, 121, 122);
+}
+table{
+display: block;
+margin:100px;
+}
+body{
+    background-color: darkgrey;
+}
+tr{
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+td{
+    width:136px;
+}
+.sbmtbtn{
+    background-color: lightseagreen;
+    border-color: black;
+    font-size: 14px;
+}
