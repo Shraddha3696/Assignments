@@ -1,0 +1,17 @@
+ body{
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .address1{
+    text-align: right;
+    font-style: italic;
+}
+.dateofapplication{
+    text-align: right; 
+}
+.address2{
+    text-align: left;
+    font-style: italic;
+}
+.textdecoration{ text-decoration-line: underline;
+text-decoration-style: dotted;
+}
