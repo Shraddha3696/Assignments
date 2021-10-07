@@ -1,1 +1,1 @@
-
+alert("js file loaded ! client side scripting working!");
